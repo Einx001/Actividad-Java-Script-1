@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mover cuadro</title>
+
+    <style>
+        #contenedor {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+
+        #cuadro {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 75px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Mover cuadro izquierda → derecha</h2>
+
+    <button id="mover">Mover</button>
+
+    <div id="contenedor">
+        <div id="cuadro"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

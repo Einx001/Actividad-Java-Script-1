@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de asientos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .fila {
+            display: flex;
+            margin-bottom: 5px;
+        }
+
+        .asiento {
+            width: 40px;
+            height: 40px;
+            margin: 3px;
+            background-color: green;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            user-select: none;
+        }
+
+        .ocupado {
+            background-color: red;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Reserva de asientos</h2>
+
+    <div id="avion"></div>
+
+    <p id="mensaje"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

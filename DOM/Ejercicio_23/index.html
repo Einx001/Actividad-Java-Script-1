@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego número secreto</title>
+</head>
+<body>
+
+    <h2>Adivina el número secreto (0 a 5)</h2>
+
+    <form id="formulario">
+        <input type="number" id="numero" min="0" max="5" required>
+        <button type="submit">Intentar</button>
+    </form>
+
+    <p>Intentos restantes: <span id="intentos">3</span></p>
+
+    <textarea id="mensaje" rows="4" cols="40" readonly></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
